@@ -4,7 +4,7 @@ export default async function SubdomainPage({ searchParams }: { searchParams: { 
   return (
     <div>
       <h1>Welcome to the {subdomain} subdomain!</h1>
-      <p>This is content customized for the "{subdomain}" subdomain.</p>
+      <p>This is content customized for the &quot;{subdomain}&quot; subdomain.</p>
     </div>
   );
 }
